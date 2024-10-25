@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gesture Controlled Scrolling</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/handpose"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>Scroll with Your Hand!</h1>
+  <p>Move your hand up or down in front of the webcam to scroll the page.</p>
+
+  <video id="webcam" autoplay playsinline></video>
+
+  <!-- Add some dummy content for scrolling -->
+  <div class="content">
+    <p>Lots of content here... Keep scrolling! ✋</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>More content here...</p>
+    <p>Keep going... You're doing great! 👏</p>
+  </div>
+</body>
+</html>
